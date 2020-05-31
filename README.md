@@ -2,3 +2,6 @@
 
 # Simple Snake Project
 ## Simple JS snake game made for study proposites
+
+## inspiration
+https://www.youtube.com/watch?v=xGmXxpIj6vs
