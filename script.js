@@ -62,8 +62,8 @@
       ctx.fillRect(
         settings.goalX * settings.gridSize,
         settings.goalY * settings.gridSize,
-        settings.gridSize - borderSize, 
-        settings.gridSize - borderSize
+        settings.gridSize - settings.borderSize, 
+        settings.gridSize - settings.borderSize
       );
    
       //Print Snake on scene
@@ -72,8 +72,8 @@
           ctx.fillRect(
             settings.trail[i].x * settings.gridSize,
             settings.trail[i].y * settings.gridSize,
-            settings.gridSize - borderSize,
-            settings.gridSize - borderSize
+            settings.gridSize - settings.borderSize,
+            settings.gridSize - settings.borderSize
           );
           //Check self collision (Game over)
           if (settings.trail[i].x === settings.playerX && settings.trail[i].y === settings.playerY) {
